@@ -1,6 +1,6 @@
 # Difference of Convex Programming in the Wasserstein Space with Applications to MMD Optimization
 
-This repository contains the code to reproduce the experiments [Difference of Convex Programming in the Wasserstein Space with Applications to MMD Optimization](). In this paper, we lift the convex-concave procedure (CCCP) to the Wasserstein space to minimize functionals which admit difference-of-convex decomposition. In particular, we focus on the Maximum Mean Discrepancy, for which we develop explicit DC decompositions.
+This repository contains the code to reproduce the experiments [Difference of Convex Programming in the Wasserstein Space with Applications to MMD Optimization](https://arxiv.org/abs/2606.27767). In this paper, we lift the convex-concave procedure (CCCP) to the Wasserstein space to minimize functionals which admit difference-of-convex decomposition. In particular, we focus on the Maximum Mean Discrepancy, for which we develop explicit DC decompositions.
 
 
 ## Abstract
@@ -15,11 +15,12 @@ Optimizing functionals over the space of probability measures is now ubiquitous 
     title={{Difference of Convex Programming in the Wasserstein Space with Applications to MMD Optimization}},
     author={Clément Bonet and Pierre-Cyril Aubin-Frankowski and Youssef Mroueh},
     year={2026},
-    journal={arXiv preprint arXiv:.}
+    journal={arXiv preprint arXiv:2606.27767}
 }
 ```
 
 
 ## Experiments
 
-- TODO
+- Experiments with the Energy Distance (e.g. Figure 1 and 2) can be reproduced by running the code from the folder `xp_Energy_Distance`
+- Experiments with the MMD with Gaussian kernel (e.g. Figure 3) can be reproduced by running the code from the folder `xp_MMD`
