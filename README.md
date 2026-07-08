@@ -11,7 +11,7 @@ Optimizing functionals over the space of probability measures is now ubiquitous 
 ## Citation
 
 ```
-@article{bonet2025difference,
+@article{bonet2026difference,
     title={{Difference of Convex Programming in the Wasserstein Space with Applications to MMD Optimization}},
     author={Clément Bonet and Pierre-Cyril Aubin-Frankowski and Youssef Mroueh},
     year={2026},
